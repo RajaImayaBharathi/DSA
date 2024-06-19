@@ -5,9 +5,9 @@ Scanner sc = new Scanner(System.in);
 String J = sc.nextLine();
 String S = sc.nextLine();
 Set<Character> jewelSet = new HashSet<>();
-for (char c : J.toCharArray()) 
+for (char c : J.toCharArray()){
 jewelSet.add(c);
-
+}
 int count = 0;
 for (char c : S.toCharArray()) {
 if (jewelSet.contains(c)){ 
