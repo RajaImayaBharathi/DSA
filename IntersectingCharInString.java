@@ -10,9 +10,8 @@ jewelSet.add(c);
 }
 int count = 0;
 for (char c : S.toCharArray()) {
-if (jewelSet.contains(c)) {
+if (jewelSet.contains(c)) 
 count++;
-}
 }
 System.out.println(count);
 }
