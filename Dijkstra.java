@@ -3,9 +3,9 @@ class Graph {
     private int vertices;
     private List<List<Node>> adjacencyList;
     class Node {
-        int vertex, weight
+        int vertex, weight;
         public Node(int vertex, int weight) {
-            this.vertex = vertex
+            this.vertex = vertex;
             this.weight = weight;
         }
     }
