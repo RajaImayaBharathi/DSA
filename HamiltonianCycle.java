@@ -7,7 +7,7 @@ public class Main {
         // Check if this vertex is an adjacent vertex of the previously added vertex
         if (!graph.get(path[pos - 1]).contains(v))
             return false;
-        // Check if the vertex has already been included
+        // Check if the vertex has already been include
         if (visited[v])
             return false;
         return true;
