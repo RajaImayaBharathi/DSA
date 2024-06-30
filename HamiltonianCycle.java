@@ -1,6 +1,6 @@
 import java.util.*;
 public class Main {
-    static int V; // Number of vertices in the graph
+    static int V; // Number of Vertices in the graph
     static List<List<Integer>> graph; // Adjacency list representation of the graph
     // Function to check if vertex v can be added at position pos in the Hamiltonian cycle
     static boolean isSafe(int v, int pos, int[] path, boolean[] visited) {
